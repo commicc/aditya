@@ -48,19 +48,145 @@
             margin: 0px;
             padding: 0px;
         } */
-       #tree>div{
+       #two+div>div{
         display: flex;
         justify-content: center;
         border: 1px solid red;
        }
-       #tree>div>p{
+       #two+div>div>p{
             margin: 0px;
             padding: 0px;
             border: 1px solid red;
         }
-       /* #three{
+       #two+div+p{
+        margin: 0px;
+        padding: 0px;
+        margin-left: 150px;
        }
-        */
+       #three{
+        width: 80%;
+        height: auto;
+        margin-left: 150px;
+        border: 1px solid red;
+       }
+       #three>div:nth-child(1){
+        width: 100%;
+        height: 400px;
+        border: 1px solid red;
+       }
+       #three>h1+div{
+        width: 100%;
+        height: 440px;
+        border: 1px solid red;
+       }
+       #three>div:nth-child(1)>div:nth-child(1){
+        width: 22%;
+        height: 100%;
+        border: 1px solid red;
+       }
+       #three>div:nth-child(1)>div:nth-child(2){
+        width: 75%;
+        height: 100%;
+        border: 1px solid red;
+       }
+       #three>div{
+        display: flex;
+        justify-content: space-between;
+       }
+       #three>h1{
+        margin: 0px;
+        padding: 0px;
+       }
+       #three>h1+div>div{
+        width: 30%;
+        height: 100%;
+        border: 1px solid red;
+       }
+       #three>h1+div>div>div{
+        display: flex;
+        justify-content: center;
+       }
+       #four{
+        width: 100%;
+        height: 650px;
+        border: 1px solid red;
+        background-color: black;
+       }
+       #four>div:nth-child(1){
+           width: 80%;
+           height: 40px;
+           margin-left: 150px;
+           padding: 0px;
+           border: 1px solid red;
+           display: flex;
+           justify-content: space-between;
+       }
+       #four>div:nth-child(1)>div:nth-child(1){
+        color: white;
+        width: 15%;
+        border: 1px solid red;
+        font-size: 25px;
+        padding: 0px;
+        height: 100%;
+       }
+       #four>div:nth-child(1)>div:nth-child(2){
+          height: 100%;
+          width:30%;
+          display: flex;
+          justify-content: space-evenly;
+          border: 1px solid red;
+       }
+       #four>div:nth-child(2)>div>p{
+        color: white;
+       }
+       #four>div:nth-child(2)>div{
+        display: flex;
+        justify-content: center;
+        border: 1px solid red;
+       }
+       #four>div:nth-child(2)>div>p{
+            margin: 0px;
+            padding: 0px;
+            border: 1px solid red;
+        }
+        #four>div+div+div{
+            width: 80%;
+            height: 420px;
+            border: 1px solid red ;
+            margin-left: 150px;
+            display: flex;
+            
+        }
+        #four>div+div+div>div{
+            width: 16%;
+            height:100%;
+            border: 1px solid red;
+            margin: auto;
+            color: white;
+        }
+        button{
+            margin-top: 10px;
+            font-size: 20px;
+            background-color: #8c8c8c;
+            color: white;
+            border: 0px;
+        }
+        #three>div>div>div{
+            display: flex;
+            justify-content: center;
+        }
+        #three>div>div>h1{
+            padding: 0px;
+            margin: 0px;
+        }
+        li{
+            margin: 15px;
+            font-size: 18px;
+        }
+        ul+p{
+            color: blue;
+            margin-left: 40px;
+        }
     </style>
 </head>
 <body>
@@ -90,23 +216,179 @@
     </div>
     <div id="two">
         <div>
-
+            
         </div>
         <div>
 
         </div>
     </div>
-    <div id="tree"> 
+    <div > 
        <div> 
         <p>Advertisments</p>
        </div>
        <div>
         <img src="https://tpc.googlesyndication.com/simgad/7665037165779942697" alt="">
        </div>
-    <div>  
-    <div id="three">
-        <p>News / Our App</p>
-    </div>
+    </div>  
+   <p>News / Our App</p>
+   <div id="three">
+       <div>
+          <div>
+               <div>
+                   <img src="https://smedia2.intoday.in/indiatoday/images/app/indiatoday-app.png" alt="">
+               </div>
+               <div>
+                 <button>Avaiable on</button>
+              </div>
+          </div>
+          <div>
+             <h1>THE INDIA TODAY APP</h1>
+             <ul style="list-style-type:disc;">
+                <li>Since 1975, India Today has stood for insight, accuracy, thoroughness and a well-rounded perspective on burning topics.</li>
+                <li>India Today TV has set the Gold Standard in Journalism with exceptional clarity in coverage and sharp, to-the-point debates and analyses.</li>
+                <li>India Today app brings to you the latest news from India and around the world about politics, technology, sports, lifestyle, etc. Also, track the latest from Bollywood, Hollywood, regional cinema and TV soaps.</li>
+                <li>Live stream of all TV Today Network channels.</li>
+                <li>Photogalleries from India and the world.</li>
+                <li>India Today magazine reportage, exclusive columns and in-depth analyses.</li>
+                <li>All this and more available on the touch of your fingertip. Download the experience for your mobile device.</li>
+             </ul>  
+             <p>Download Android App | Download iOS app</p>
+          </div>
+       </div>
+       <h1>RELATED APPS FROM THE INDIA TODAY GROUP</h1>
+        <div>
+          <div>
+            <div>
+                    <img src="https://smedia2.intoday.in/indiatoday/images/app/aajtak-app.png" alt="">
+            </div>
+            <div>
+                <button>Avaiable on</button>
+            </div>
+            <div>
+                 <h2>Aaj Tak</h2>
+            </div>
+            <div>
+                 <p>India's most popular Hindi news app from India's No. 1 Hindi News Channel. Updated 24X7, you get the breaking news first. Plus, you get all the programmes of AajTak to watch anytime, anywhere. Download the Sabse Tez app.</p>
+            </div>
+          </div>
+          <div>
+            <div>
+                <img src="https://smedia2.intoday.in/indiatoday/images/app/businesstoday-app.png" alt="">
+            </div>
+        <div>
+            <button>Avaiable on</button>
+        </div>
+        <div>
+             <h2>Business Today</h2>
+        </div>
+        <div>
+             <p>App you can profit from. In-depth coverage of business and economy, sharp analysis of business trends from Business Today, India’s premier business magazine.</p>
+        </div>
+          </div>
+          <div>
+            <div>
+                <img src="https://smedia2.intoday.in/indiatoday/images/app/mailtoday-app.png" alt="">
+        </div>
+        <div>
+            <button>Avaiable on</button>
+        </div>
+        <div>
+             <h2>Mail Today</h2>
+        </div>
+        <div>
+             <p>Mail Today is a morning daily newspaper with a difference. Clean, lucid and straight-talking, Mail Today marries the credibility and authenticity of the India Today Group with the Daily Mail's international standards. Now delivered to your mobile device. Download. It’s free.</p>
+        </div>
+          </div>
+        </div>
+   </div>
+   <div id="four">
+       <div>
+           <div>
+            INDIATODAY.IN
+           </div>
+           <div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRccNZOCI8bAq8Lp71OLdfVPn1WFbEwaKNtkQ&usqp=CAU" alt="">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtvy0nLkzGteMsYZ6HzNR_jYiMbz1pNjyf5A&usqp=CAU" alt="">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe1VbbzDNLu1I0KTaQJEXwStDCbqby3vFFEQ&usqp=CAU" alt="">
+              <img src="data:image/jpeg;base64,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" alt="">
+              <img src="data:image/png;base64,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" alt="">
+           </div>
+       </div>
+       <div>
+           <div>
+               <p>Advertisments</p>
+           </div>
+           <div>
+                <img src="https://tpc.googlesyndication.com/simgad/7665037165779942697" alt="">
+           </div>
+       </div>
+       <div>
+           <div>
+              <h4>PUBLICATIONS :</h4>
+              <p>Business Today</p>
+              <p>Cosmopolitican</p>
+              <p>India Today-Hindi</p>
+              <p>India Today</p>
+              <p>Mail Today</p>
+              <p>Money Today</p>
+              <p>Reader's Digest</p>
+              <p>Time</p>
+           </div>
+           <div>
+               <h4>TELEVISION :</h4>
+               <p>Aaj Tak</p>
+               <p>Delhi Aaj Tak</p>
+               <p>Good News Today</p>
+               <p>India TOday TV</p>
+               <h4>RADIO :</h4>
+               <p>Ishq Fm</p>
+               <h4>GAMING :</h4>
+               <p>India Today Gaming</p>
+               <p>World Esports Cup</p>
+               <p>Esports Premium League</p>
+           </div>
+           <div>
+            <h4>EDUCATION :</h4>
+            <p>India Today Education</p>
+            <p>Vasant Valley</p>
+            <p>Best Colleges India 2018</p>
+            <p>Best Universities Inida 2018</p>
+            <p>AajTak Campus Nationl</p>
+            <p>Aptitude Test</p>
+            <h4>ONLINE SHOPPING</h4>
+           </div>
+           <div>
+              <h4>EVENTS :</h4>
+              <p>Agenda Today</p>
+              <p>India Today Conclave</p>
+              <p>Robb Report India 2018</p>
+              <p>Sahitya Aaj Tak</p>
+              <p>The Red Tape</p>
+           </div>
+           <div>
+              <h4>PRINTING :</h4>
+              <p>Thomson Press</p>
+              <h4>WELFARE :</h4>
+              <p>Care Today</p>
+              <h4>MUSIC :</h4>
+              <p>Music Today</p>
+           </div>
+           <div>
+              <h4>SYNDICATION :</h4>
+              <p>India Content</p>
+              <p>Headlines Today</p>
+              <h4>DISTRIBUTIO :</h4>
+              <p>Rate Card
+              </p>
+              <h4>USEFUL LINKS :</h4>
+              <p>Parteners</p>
+              <p>Press Release</p>
+              <p>Sitemap</p>
+              <p>News</p>
+              <p>Newsletter</p>
+           </div>
+       </div>
+   </div>
      
     
 </body>
